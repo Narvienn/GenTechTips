@@ -1,0 +1,9 @@
+How to update/upload a Charles Proxy certificate without blaspheming and gnashing of teeth (much)
+
+1. In Charles: Help > SSL Proxying > Reset Charles Root Certificate
+
+—> This step will create a new root certificate in Charles on the machine it’s installed on (usually, your laptop) - at this point, for Charles, this is the only valid document for establishing connection with other devices
+
+2. In your mobile device:  2.1. Remove any previously installed certificates (or Charles will consider them a mismatch with the newly created root you’ve created in Step 1)  ANDROID: General > [general search] Certificates > User Certificates > User certificates > usun to, co tam jest IOS: General > [general search] > VPN & Device Management > Configuration profile > usun istniejace   2.2. Establish connection with Charles (Help > Install Charles Root Certificate On A Mobile Device or Remote Browser > input the IP in your device as usual) —> without this, the next step won’t work - you need Charles as your authenticating server so that it can create the other copy of root certificate for your device
+	2.2. In your device, open a web browser and go to https://chls.pro/ssl — this should start downloading the Charles certificate IOS: General > [general search] > VPN & Device Management > Configuration profile > install + install, THEN: [general search] Trusted Certificates > trust your new certificate 
+- Android - General > User certificates (sprawdź, czy się zainstalowało - jeśli nie, to > Install from device storage > CA Certificate)

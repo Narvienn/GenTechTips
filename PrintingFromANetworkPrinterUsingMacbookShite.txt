@@ -1,0 +1,9 @@
+Drukowanie z MacBooka, gods help you -.-
+
+
+1. Make sure you open your file in a desktop application (e.g. Adobe Acrobat, Foxit Reader etc.) - trying to send the print job from a file opened in browser may not work
+2. Make sure you’re connected to StoneX VPN network
+3. After selecting ‘Print’ in your file viewer, go to the Print Queue popup and authenticate there with your StoneX credentials — NOTE: Make sure to verify that your username is ‘first name.lastname’ and not the default ‘firstnamelastname’ (no spaces)
+4. Pay attention to the print queue dialogue window - once your print job shows as “Sending to printer” and then disappears from the window, it means it was successfully sent to printer and you can proceed to that printer to release it
+5. Proceed to the printer and login there
+6. Check the status of your print job (“Job Status” button in the top right corner of the printer display screen) - if necessary, release the job manually in the printer options
