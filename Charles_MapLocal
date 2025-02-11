@@ -1,0 +1,7 @@
+Charles Map Local tool
+
+1. Download the entire response/request payload that you want to overwrite/spoof
+2. Save it as a .json using your local text editor (SublimeText, Notepad++, BBEdit if on a Mac)
+3. In Charles, go to Tools/Map Local / Add
+4. Specify the endpoint/URL + your local file path
+5. Run your API call
